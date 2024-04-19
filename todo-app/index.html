@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <title>Vite + TS</title>
+  </head>
+  <body class="h-screen overflow-hidden">
+     <div id="app-container" class="flex flex-col items-center justify-center shadow-lg
+                                   shadow-gray-900 h-auto max-h-screen mt-20 mx-auto mb-4 max-w-lg
+                                    bg-slate-600 rounded-2xl p-10">
+      <textarea name="" id="task-inputarea" cols="30" rows="5" class="bg-gray-700 text-white rounded border border-gray-800
+                                                         leading-normal resize-none w-3/4 h-20 py-2 px-3 font-medium
+                                                          placeholder-white focus:outline-none focus:bg-gray-500 shadow-lg"
+                                                           placeholder="Enter your Task Here:"></textarea>
+      <button class=" bg-gray-700 text-white font-medium py-1 px-4 border border-gray-800
+                         rounded-lg tracking-wide mr-1 hover:bg-slate-300
+                          my-5 shadow-lg" id="btn-add-task">Add Task</button>
+
+      <div class="w-3/4 h-60 bg-gray-700 text-white shadow-lg
+                  p-3 overflow-y-scroll" id="tasks-container">
+        <h3 class="m-20 fixed">Your tasks</h3>
+      </div>
+
+     </div>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

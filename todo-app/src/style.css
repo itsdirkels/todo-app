@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: content-box;
+}
+
+::-webkit-scrollbar {
+  background-color: rgb(63, 59, 87);
+}
